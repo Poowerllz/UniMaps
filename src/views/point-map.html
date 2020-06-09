@@ -1,0 +1,68 @@
+{% extends "layout.html" %}}
+
+{% set pageId = "page-point-map" %}}
+
+{% block title %}
+    <title>Mapa</title>
+    <link rel="icon" href="/assets/icones/favicon.ico" />
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/point-map.css">
+{% endblock styles %}
+
+</head>
+
+<body>
+
+{% block content %}
+    {% include "partials/page-header.html" %}
+    <main>
+
+        <div class="intro">
+            <h1>
+                <strong>MiniMapa</strong>
+            </h1>
+            <a href="/table-hours" class="aviso">
+            <img src="/assets/icones/notificacao.svg" alt="Sino">
+                <h4>Notificação</h4>
+            </a>
+
+        </div>
+        <div class="caution">
+            <h4>
+                Essa aplicação ainda está em fase beta.
+                <p>
+                    quaiquer erros no minimapa solicitamos seu feedback.</h4>
+            </div>
+            
+            <form action="">
+                <fieldset>
+                    <legend>
+                        <h3>Selecione seu filtro.</h3>
+                    </legend>
+                    <div class="field-group">
+                        <div class="field">
+                        <h4>Local de partida</h4>
+                            <select name="" id="">
+                                <option value="Biblioteca" selected="Selected">Biblioteca</option>
+                                <option value="NAAF" selected="Selected">NAAF</option>
+                                <option value="NAAP" selected="Selected">NAAP</option>
+                            </select>
+                        </div>
+                        
+                        
+                        <div class="field2">
+                        <h4>Local de chegada</h4>
+                            <select name="" id="">
+                                <option value="" selected="Selected">Biblioteca</option>
+                                <option value="" selected="Selected">NAAF</option>
+                                <option value="" selected="Selected">NAAP</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            
+        </main>
+    {% endblock content %}

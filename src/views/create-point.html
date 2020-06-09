@@ -1,0 +1,84 @@
+{% extends "layout.html" %}}
+
+{% set pageId = "page-create-point" %}}
+
+{% block title %}
+    <title>Criar um ticket</title>
+    <link rel="icon" href="/assets/icones/favicon.ico" />
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/create-point.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+
+{% endblock styles %}
+
+{% block content %}
+    {% include "partials/page-header.html" %}
+
+    <form action="/savepoint" method ="POST">
+        <h1>Cadastro do ticket</h1>
+        <fieldset>
+            <legend>
+                <h2>Dados</h2>
+            </legend>
+
+            <div class="field-group">
+
+                <div class="field">
+                    <label for="name">Nome da entidade</label>
+                    <input type="text" placeholder="Seu nome, ou mesmo, poderá ser anonimo." name="name" required="required">
+                </div>
+                
+                <div class="field">
+                    <label for="name">Imagem da entidade</label>
+                    <input type="url" placeholder="Link de uma imagem que retrate o problema." name="image" >
+                </div>
+            </div>
+
+                <div class="field2">
+                    <label for="name">Descrição</label>
+                    <input type="text" placeholder="Aqui você descreve seu feedback." name="state" required="required">
+                </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h2>Há algo de errado? </h2>
+                <span>Selecione um ou mais itens abaixo</span>
+            </legend>
+            <div class="items-grid">
+                <li data-id="Dimensão">
+                    <img src="/assets//icones/dimensions.svg" alt="Dimensao">
+                    <span>Dimensão</span>
+                </li>
+
+                <li data-id="A Planta está errada">
+                    <img src="/assets//icones/plantL.svg" alt="Planta">
+                    <span>Planta Baixa</span>
+                </li>
+
+                <li data-id="Está faltando algo">
+                    <img src="/assets//icones/mapa.svg" alt="Está faltando algo">
+                    <span>Está faltando algo</span>
+                </li>
+
+            <input type="hidden" name="items">
+
+        </fieldset>
+
+        <button type='submit'>Criar ticket!</button>
+    </form>
+
+{% endblock content %}
+
+{% block modal %}
+{% if saved %}
+    {%include "partials/point-created.html"%}
+{% endif %}
+{% endblock modal %}
+
+{% block scripts %}
+    <script src="/scripts/create-point.js"></script>
+{% endblock scripts %}
