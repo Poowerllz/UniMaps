@@ -94,5 +94,9 @@ server.get("/table-hours", (req, res) => {
     return res.render("table-hours.html")
 })
 
+server.get("/tela", (req, res) => {
+    return res.render("tela.html")
+})
+
 // Ligar o servidor
 server.listen(3000);

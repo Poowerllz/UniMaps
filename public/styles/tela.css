@@ -1,0 +1,302 @@
+#page-tela .wrapper{
+    align-items: center;
+    display: flex;
+
+    width: 100%;
+}
+
+#page-tela .wrapper aside{
+    position: absolute;
+    width: 387px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    
+    background: #111119;
+
+    min-height: 100vh;
+}
+
+#page-tela .wrapper div{
+    position: absolute;
+    width: 979px;
+    height: 800px;
+    left: 387px;
+    top: 0px;
+    
+    background: #F1F0F5;
+}
+
+#page-tela .wrapper aside h4.first{
+    position: absolute;
+    width: 223px;
+    height: 28px;
+    left: 48px;
+    top: 120px;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    color: #F1F0F5;
+}
+#page-tela .wrapper aside h4.second{
+    position: absolute;
+    width: 196px;
+    height: 28px;
+    left: 48px;
+    top: 372px;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    min-width: 300px;
+
+    /* identical to box height */
+    
+    
+    color: #F1F0F5;
+}
+
+#page-tela .wrapper aside h6{
+    position: absolute;
+width: 105px;
+height: 24px;
+left: 80px;
+top: 260px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+min-width: 300px;
+
+/* identical to box height, or 24px */
+
+
+color: #F1F0F5;
+
+opacity: 0.8;
+}
+
+#page-tela .wrapper aside select.camp{
+position: absolute;
+width: 291px;
+height: 56px;
+left: 48px;
+top: 172px;
+
+color: #6B6A71;
+opacity: 0.2;
+border-radius: 100px;
+
+}
+
+
+
+#page-tela .wrapper aside h6.second{
+    /* Encontre o melhor trajeto ao seu destino */
+
+
+position: absolute;
+width: 291px;
+height: 24px;
+left: 48px;
+top: 416px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #F1F0F5;
+
+opacity: 0.8;
+}
+
+#page-tela .wrapper aside form select.first-select{
+    /* border */
+/* initial-point-select */
+
+position: absolute;
+width: 291px;
+height: 48px;
+left: 48px;
+top: 480px;
+
+position: absolute;
+width: 291px;
+height: 48px;
+left: 48px;
+top: 480px;
+
+opacity: 0.6;
+border: 1px solid #F1F0F5;
+box-sizing: border-box;
+border-radius: 100px;
+
+}
+
+#page-tela .wrapper aside form select.end-select{
+    /* border */
+position: absolute;
+width: 291px;
+height: 48px;
+left: 48px;
+top: 552px;
+
+opacity: 0.6;
+border: 1px solid #F1F0F5;
+box-sizing: border-box;
+border-radius: 100px;
+}
+
+#page-tela .wrapper aside img.circle{
+position: absolute;
+width: 7px;
+height: 7px;
+left: 26px;
+top: 499px;
+border-radius: 10px;
+
+background: #5B75EE;
+opacity: 0.8;
+}
+
+#page-tela .wrapper aside img.line{
+/* line */
+
+
+position: absolute;
+width: 1px;
+height: 42px;
+left: 29px;
+top: 518px;
+
+background: #5B75EE;
+opacity: 0.8;
+}
+
+#page-tela .wrapper aside img.square{
+/* square */
+
+position: absolute;
+width: 7px;
+height: 7px;
+left: 26px;
+top: 572px;
+
+background: #5B75EE;
+opacity: 0.8;
+}
+
+#page-tela .wrapper aside form a{
+    /* background */
+
+
+position: absolute;
+width: 291px;
+height: 48px;
+left: 48px;
+top: 640px;
+
+background: #5B75EE;
+box-shadow: 0px 1px 10px rgba(91, 117, 238, 0.2), 0px 4px 5px rgba(91, 117, 238, 0.12), 0px 2px 4px rgba(91, 117, 238, 0.14);
+border-radius: 100px;
+
+/* Pesquisar */
+
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+
+color: #F1F0F5;
+}
+
+#page-tela .wrapper aside form h5{
+/* Pesquisar */
+
+
+position: absolute;
+width: 81px;
+height: 27px;
+left: 153px;
+top: 651px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+
+color: #F1F0F5;
+}
+
+#page-tela .wrapper aside form h6.clean{
+/* clear-selection */
+
+
+position: absolute;
+width: 112px;
+height: 24px;
+left: 138px;
+top: 704px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #F1F0F5;
+
+opacity: 0.2;
+}
+
+#page-tela .wrapper aside a.home{
+position: absolute;
+width: 300px;
+height: 10px;
+left: 90px;
+top: 900px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+color: white;
+
+display: flex;
+}
+
+#page-tela .wrapper aside a.home span{
+    margin-right: 16px;
+    display: flex;
+    background-image: url(../assets/icones/arrow-left.svg);
+
+    width: 20px;
+    height: 20px;
+}
+
+#page-tela .wrapper  div img{
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: 742px;
+    top: 265px;
+}

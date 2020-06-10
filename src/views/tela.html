@@ -1,0 +1,68 @@
+{% extends "layout.html" %}}
+
+{% set pageId = "page-tela" %}}
+
+{% block title %}
+    <title >Front_Map</title>
+    <link rel="icon" href="/assets/icones/favicon.ico"/>
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/tela.css">
+{% endblock styles %}
+</head>
+<body>
+
+{% block content %}
+    <div class="wrapper">
+        <aside>
+            <h4 class="first">
+                Selecione o campus
+            </h4>
+
+            <select name="" id="" class="camp">
+                <option value="UniFanor" selected="Selected">UniFanor</option>
+            </select>
+
+            <h6>
+                Outro Campus
+            </h6>
+
+            <h4 class="second">
+                Detalhamento de rota
+            </h4>
+            <h6 class="second">
+                Encontre o melhor trajeto ao seu destino
+            </h6>
+
+            <form action="">
+                <select name="" id="" class="first-select" placeholder="Selecione a saída">
+                    <option value="hurr">Durr</option>
+
+                </select>
+            </form>
+
+            <img src="/assets/icones/circle.svg" alt="circulo" class="circle">
+            <img src="/assets/icones/line.svg" alt="" class="line">
+            <img src="/assets/icones/square.svg" alt="quadrado" class="square">
+
+            <form action="">
+                <select name="" id="" class="end-select" placeholder="Selecione o destino">
+                    <option value="">Biblioteca</option>
+                </select>
+
+                <a href="/tela"></a>
+                <h5>Pesquisar</h5>
+                <h6 class="clean">Limpar seleção</h6>
+
+            </form>
+                <a href="/" class="home">
+                    <span></span>
+                    Voltar para home
+                </a>
+        </aside>
+        <div>
+            <img src="assets/icones/Vector.svg" alt="">
+        </div>
+    </div>
+{% endblock content %}
