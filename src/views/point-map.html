@@ -4,12 +4,16 @@
 
 {% block title %}
     <title>Mapa</title>
-    <link rel="icon" href="/assets/icones/favicon.ico" />
+    <link rel="icon" href="/assets/icones/favicon.ico"/>
 {% endblock title %}
 
 {% block styles %}
     <link rel="stylesheet" href="/styles/point-map.css">
 {% endblock styles %}
+
+{% block scripts %}
+    <script src="/scripts/point-map.js"></script>
+{% endblock scripts %}
 
 </head>
 
@@ -24,7 +28,7 @@
                 <strong>MiniMapa</strong>
             </h1>
             <a href="/table-hours" class="aviso">
-            <img src="/assets/icones/notificacao.svg" alt="Sino">
+                <img src="/assets/icones/notificacao.svg" alt="Sino">
                 <h4>Notificação</h4>
             </a>
 
@@ -35,7 +39,7 @@
                 <p>
                     quaiquer erros no minimapa solicitamos seu feedback.</h4>
             </div>
-            
+
             <form action="">
                 <fieldset>
                     <legend>
@@ -43,26 +47,34 @@
                     </legend>
                     <div class="field-group">
                         <div class="field">
-                        <h4>Local de partida</h4>
-                            <select name="" id="">
-                                <option value="Biblioteca" selected="Selected">Biblioteca</option>
-                                <option value="NAAF" selected="Selected">NAAF</option>
-                                <option value="NAAP" selected="Selected">NAAP</option>
+                            <h4>Local de partida</h4>
+                            <select class="first-select">
+                                <option disabled="disabled" hidden="hidden" selected="selected">Escolher ponto de partida</option>
+                                <option value="PREDIOA">PREDIOA</option>
+                                <option value="ENTRADA">ENTRADA</option>
+                                <option value="REFEITORIO">REFEITORIO</option>
+                                <option value="BIBLIOTECA">BIBLIOTECA</option>
+                                <option value="NAAF">NAAF</option>
+                                <option value="CORDENAÇÃO">CORDENACAO</option>
                             </select>
                         </div>
-                        
-                        
+
                         <div class="field2">
-                        <h4>Local de chegada</h4>
-                            <select name="" id="">
-                                <option value="" selected="Selected">Biblioteca</option>
-                                <option value="" selected="Selected">NAAF</option>
-                                <option value="" selected="Selected">NAAP</option>
+                            <h4>Local de chegada</h4>
+                            <select class="end-select">
+                                <option disabled="disabled" hidden="hidden" selected="selected">Escolher ponto de destino</option>
+                                <option value="PREDIOA">PREDIOA</option>
+                                <option value="ENTRADA">ENTRADA</option>
+                                <option value="REFEITORIO">REFEITORIO</option>
+                                <option value="BIBLIOTECA">BIBLIOTECA</option>
+                                <option value="NAAF">NAAF</option>
+                                <option value="CORDENACAO">CORDENACAO</option>
                             </select>
                         </div>
                     </div>
+                    <button class="pesquiseB" id="pesquiseB" type="button">Pesquisar</button>
                 </fieldset>
             </form>
-            
+            <img id="myImg" src="assets/icones/Vector.svg" class="map" alt="">
         </main>
     {% endblock content %}

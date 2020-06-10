@@ -13,7 +13,6 @@
     top: 0px;
     
     background: #111119;
-
     min-height: 100vh;
 }
 
@@ -43,6 +42,7 @@
     
     color: #F1F0F5;
 }
+
 #page-tela .wrapper aside h4.second{
     position: absolute;
     width: 196px;
@@ -63,8 +63,8 @@
     color: #F1F0F5;
 }
 
-#page-tela .wrapper aside h6{
-    position: absolute;
+#page-tela .wrapper aside a h6{
+position: absolute;
 width: 105px;
 height: 24px;
 left: 80px;
@@ -78,10 +78,7 @@ line-height: 150%;
 min-width: 300px;
 
 /* identical to box height, or 24px */
-
-
 color: #F1F0F5;
-
 opacity: 0.8;
 }
 
@@ -96,14 +93,16 @@ color: #6B6A71;
 opacity: 0.2;
 border-radius: 100px;
 
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+
 }
-
-
 
 #page-tela .wrapper aside h6.second{
     /* Encontre o melhor trajeto ao seu destino */
-
-
 position: absolute;
 width: 291px;
 height: 24px;
@@ -119,19 +118,12 @@ line-height: 150%;
 
 
 color: #F1F0F5;
-
 opacity: 0.8;
 }
 
-#page-tela .wrapper aside form select.first-select{
+#page-tela .wrapper aside  select.first-select{
     /* border */
 /* initial-point-select */
-
-position: absolute;
-width: 291px;
-height: 48px;
-left: 48px;
-top: 480px;
 
 position: absolute;
 width: 291px;
@@ -144,9 +136,14 @@ border: 1px solid #F1F0F5;
 box-sizing: border-box;
 border-radius: 100px;
 
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
 }
 
-#page-tela .wrapper aside form select.end-select{
+#page-tela .wrapper aside  select.end-select{
     /* border */
 position: absolute;
 width: 291px;
@@ -158,6 +155,13 @@ opacity: 0.6;
 border: 1px solid #F1F0F5;
 box-sizing: border-box;
 border-radius: 100px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+
 }
 
 #page-tela .wrapper aside img.circle{
@@ -199,9 +203,8 @@ background: #5B75EE;
 opacity: 0.8;
 }
 
-#page-tela .wrapper aside form a{
+#page-tela .wrapper aside  button.pesquiseB{
     /* background */
-
 
 position: absolute;
 width: 291px;
@@ -214,8 +217,6 @@ box-shadow: 0px 1px 10px rgba(91, 117, 238, 0.2), 0px 4px 5px rgba(91, 117, 238,
 border-radius: 100px;
 
 /* Pesquisar */
-
-
 font-family: Ubuntu;
 font-style: normal;
 font-weight: 500;
@@ -223,15 +224,14 @@ font-weight: 500;
 color: #F1F0F5;
 }
 
-#page-tela .wrapper aside form h5{
+#page-tela .wrapper aside  h5{
 /* Pesquisar */
-
 
 position: absolute;
 width: 81px;
 height: 27px;
 left: 153px;
-top: 651px;
+top: 551px;
 
 font-family: Ubuntu;
 font-style: normal;
@@ -240,16 +240,14 @@ font-size: 18px;
 line-height: 150%;
 /* identical to box height, or 27px */
 
-
 color: #F1F0F5;
 }
 
-#page-tela .wrapper aside form h6.clean{
+#page-tela .wrapper aside a h5.Clean{
 /* clear-selection */
 
-
 position: absolute;
-width: 112px;
+width: 130px;
 height: 24px;
 left: 138px;
 top: 704px;
@@ -261,18 +259,17 @@ font-size: 16px;
 line-height: 150%;
 /* identical to box height, or 24px */
 
-
 color: #F1F0F5;
 
-opacity: 0.2;
+opacity: 0.6;
 }
 
 #page-tela .wrapper aside a.home{
 position: absolute;
 width: 300px;
 height: 10px;
-left: 90px;
-top: 900px;
+left: 100px;
+top: 840px;
 
 font-family: Ubuntu;
 font-style: normal;
@@ -293,10 +290,36 @@ display: flex;
     height: 20px;
 }
 
-#page-tela .wrapper  div img{
+
+#page-tela .wrapper a.aviso {
+
     position: absolute;
-    width: 270px;
-    height: 270px;
-    left: 742px;
-    top: 265px;
+    width: 300px;
+    left: 100px;
+    top: 760px;
+
+    background-color: white;
+    
+    /*Preenchimento*/
+    border-radius: 10px;
+    max-width: 200px;
+    padding: 10px;
+    color: white;
+    border: 2px solid #34cb79;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#page-tela .wrapper .aviso:hover {
+    transition-duration: 300ms;
+    background-color: #2fb86e;
+}
+
+#page-tela .wrapper  div img.map{
+    position: absolute;
+    width: 830px;
+    height: 830px;
+    left: 200px;
+    top: 30px;
 }

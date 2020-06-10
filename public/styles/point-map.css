@@ -97,7 +97,7 @@ main form fieldset {
     padding: 20px;
     padding-bottom: 20px;
     border-radius: 8px;
-    max-width: 220px;
+    max-width: 200px;
 }
 
 main form {
@@ -126,4 +126,25 @@ main form fieldset .field-group select {
     padding: 16px 40px;
     font-size: 16px;
     outline: none;
+}
+
+main form fieldset button {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 8px;
+    padding: 16px 40px;
+    font-size: 16px;
+    outline: none;
+    margin-top: 23px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+main img.map{
+position: absolute;
+position: absolute;
+width: 530px;
+height: 530px;
+left: 900px;
+top: 310px;
 }

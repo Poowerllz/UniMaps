@@ -1,14 +1,15 @@
+
 <div id="modal" class="hide">
     <div class="content">
         <div class="header">
             <h1>Escolha a sua arquitetura</h1>
             <a href="#">Fechar</a>
         </div>
-        <form action="/tela">
+        <form action="/tela" id="myButton">
             <label for="search">Arquitetura</label>
             <div class="search field">
-                    <select disabled>
-                        <option value="" selected="selected" >Computer</option>
+                    <select id="Arquitetura">
+                        <option value="" selected="selected" >Desktop</option>
                         <option value="">Mobile</option>
                     </select>
                     <button>
@@ -17,4 +18,5 @@
             </div>
         </form>
     </div>
+        <script src="/scripts/modal.js"></script>
 </div>

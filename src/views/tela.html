@@ -1,5 +1,9 @@
 {% extends "layout.html" %}}
 
+{% block scripts %}
+    <script src="/scripts/tela.js"></script>
+{% endblock scripts %}
+
 {% set pageId = "page-tela" %}}
 
 {% block title %}
@@ -20,49 +24,67 @@
                 Selecione o campus
             </h4>
 
-            <select name="" id="" class="camp">
+            <select name="" id="" class="camp" disabled="disabled">
                 <option value="UniFanor" selected="Selected">UniFanor</option>
             </select>
 
-            <h6>
-                Outro Campus
-            </h6>
+            <a href="/create-point" class="campus">
+                <h6>Outro Campus</h6>
+            </a>
 
             <h4 class="second">
                 Detalhamento de rota
             </h4>
+
             <h6 class="second">
                 Encontre o melhor trajeto ao seu destino
             </h6>
 
-            <form action="">
-                <select name="" id="" class="first-select" placeholder="Selecione a saída">
-                    <option value="hurr">Durr</option>
+                <select class="first-select">
+                    <option disabled="disabled" hidden="hidden" selected="selected">Escolher ponto de partida</option>
+                    <option value="PREDIOA">PREDIOA</option>
+                    <option value="ENTRADA">ENTRADA</option>
+                    <option value="REFEITORIO">REFEITORIO</option>
+                    <option value="BIBLIOTECA">BIBLIOTECA</option>
+                    <option value="NAAF">NAAF</option>
+                    <option value="CORDENAÇÃO">CORDENACAO</option>
 
                 </select>
-            </form>
 
-            <img src="/assets/icones/circle.svg" alt="circulo" class="circle">
-            <img src="/assets/icones/line.svg" alt="" class="line">
-            <img src="/assets/icones/square.svg" alt="quadrado" class="square">
+                <img src="/assets/icones/circle.svg" alt="circulo" class="circle">
+                <img src="/assets/icones/line.svg" alt="" class="line">
+                <img src="/assets/icones/square.svg" alt="quadrado" class="square">
 
-            <form action="">
-                <select name="" id="" class="end-select" placeholder="Selecione o destino">
-                    <option value="">Biblioteca</option>
+                <select class="end-select">
+                    <option disabled="disabled" hidden="hidden" selected="selected">Escolher ponto de destino</option>
+                    <option value="PREDIOA">PREDIOA</option>
+                    <option value="ENTRADA">ENTRADA</option>
+                    <option value="REFEITORIO">REFEITORIO</option>
+                    <option value="BIBLIOTECA">BIBLIOTECA</option>
+                    <option value="NAAF">NAAF</option>
+                    <option value="CORDENACAO">CORDENACAO</option>
                 </select>
 
-                <a href="/tela"></a>
-                <h5>Pesquisar</h5>
-                <h6 class="clean">Limpar seleção</h6>
+                <button class="pesquiseB" id="pesquiseB" type="button">Pesquisar</button>
 
-            </form>
-                <a href="/" class="home">
-                    <span></span>
-                    Voltar para home
+                <a href="/tela" class="Clean">
+                    <h5 class="Clean">Limpar Seleção</h5>
                 </a>
+
+            <a href="/table-hours" class="aviso">
+                <img src="/assets/icones/notificacao.svg" alt="Sino">
+                <h4>Notificação</h4>
+            </a>
+
+            <a href="/" class="home">
+                <span></span>
+                Voltar para home
+            </a>
         </aside>
         <div>
-            <img src="assets/icones/Vector.svg" alt="">
+            <img id="myImg" src="assets/icones/Vector.svg" class="map" alt="">
         </div>
+
+        <img src="" alt="Minimapa">
     </div>
 {% endblock content %}

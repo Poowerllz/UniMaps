@@ -1,4 +1,4 @@
-<svg width="458" height="1154" viewBox="0 0 458 577" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="458" height="577" viewBox="0 0 458 577" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect width="458" height="577" fill="#E5E5E5"/>
 <rect x="193" y="266" width="12" height="11" fill="url(#pattern0)"/>
 <rect x="171" y="258" width="12" height="11" fill="url(#pattern1)"/>
@@ -748,19 +748,19 @@
 <rect width="6" height="2" transform="matrix(1 0 0 -1 230 366)" fill="url(#paint16_linear)"/>
 <rect width="6" height="2" transform="matrix(-1 0 0 1 235 431)" fill="#2E5A65"/>
 <rect width="6" height="2" transform="matrix(-1 0 0 1 235 431)" fill="url(#paint17_linear)"/>
-<circle cx="182.5" cy="426.5" r="4.5" fill="black"/>
-<circle cx="182.5" cy="426.5" r="3.5" fill="white"/>
+<circle cx="236.5" cy="558.5" r="4.5" fill="black"/>
+<circle cx="236.5" cy="558.5" r="3.5" fill="#FFC700"/>
 <circle cx="135.5" cy="235.5" r="4.5" fill="black"/>
-<circle cx="135.5" cy="235.5" r="3.5" fill="#FFC700"/>
+<circle cx="135.5" cy="235.5" r="3.5" fill="white"/>
 <line x1="164.5" y1="358" x2="164.5" y2="364" stroke="#8E8E8E"/>
 <line x1="165" y1="363.5" x2="218" y2="363.5" stroke="#8E8E8E"/>
 <line x1="192.5" y1="357" x2="192.5" y2="364" stroke="#8E8E8E"/>
-<line x1="186" y1="426.5" x2="201" y2="426.5" stroke="black"/>
-<line x1="200.5" y1="427" x2="200.5" y2="379" stroke="black"/>
-<line x1="201" y1="379.5" x2="159" y2="379.5" stroke="black"/>
-<line x1="159.573" y1="379.565" x2="124.823" y2="353.232" stroke="black"/>
-<line x1="124.5" y1="354" x2="124.5" y2="235" stroke="black"/>
-<path d="M130.354 235.354C130.549 235.158 130.549 234.842 130.354 234.646L127.172 231.464C126.976 231.269 126.66 231.269 126.464 231.464C126.269 231.66 126.269 231.976 126.464 232.172L129.293 235L126.464 237.828C126.269 238.024 126.269 238.34 126.464 238.536C126.66 238.731 126.976 238.731 127.172 238.536L130.354 235.354ZM124 235.5L130 235.5L130 234.5L124 234.5L124 235.5Z" fill="black"/>
+<line x1="131" y1="235.5" x2="125" y2="235.5" stroke="black"/>
+<line x1="125.5" y1="236" x2="125.5" y2="358" stroke="black"/>
+<line x1="125.255" y1="357.57" x2="223.255" y2="415.57" stroke="black"/>
+<line x1="223.5" y1="415" x2="223.5" y2="453" stroke="black"/>
+<line x1="223" y1="452.5" x2="236" y2="452.5" stroke="black"/>
+<path d="M235.646 552.354C235.842 552.549 236.158 552.549 236.354 552.354L239.536 549.172C239.731 548.976 239.731 548.66 239.536 548.464C239.34 548.269 239.024 548.269 238.828 548.464L236 551.293L233.172 548.464C232.976 548.269 232.66 548.269 232.464 548.464C232.269 548.66 232.269 548.976 232.464 549.172L235.646 552.354ZM235.5 452L235.5 552L236.5 552L236.5 452L235.5 452Z" fill="black"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-0.385274) scale(0.00418569 0.00456621)"/>

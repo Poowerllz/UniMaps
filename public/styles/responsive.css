@@ -14,7 +14,7 @@
     }
     #page-home header a.feedback {
         padding-left: 0px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
     #page-home header a,
     #page-table-hours header a {
@@ -43,6 +43,19 @@
         transform: translateX(-50%);
         left: 50%;
     }
+
+    #page-point-map main img.map{
+        position: absolute;
+        position: absolute;
+        width: 330px;
+        height: 330px;
+        left: 70px;
+        top: 840px;
+        }
+
+        #page-point-map form{
+            margin-left: 60px;
+        }
 }
 
 @media (min-width: 1700px) {
@@ -55,6 +68,8 @@
     #page-home {
         background-position-y: 200px;
     }
+    
+
 }
 
 @media (max-width: 630px) {
@@ -62,4 +77,43 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+
+
+}
+
+@media (max-height: 730px) {
+    #page-home header a.feedback {
+        position: absolute;
+        height: 420px;
+    }
+    #page-home header a {
+        position: absolute;
+        height: 460px;
+    }
+
+}
+
+@media (max-height: 650px) {
+    #page-home header a.feedback {
+        position: absolute;
+        height: 380px;
+    }
+
+    #page-home header a {
+        position: absolute;
+        height: 420px;
+    }
+}
+
+@media (max-height: 570px) {
+       #page-home header a.feedback {
+            position: absolute;
+            height: 370px;
+        }
+    
+        #page-home header a {
+            position: absolute;
+            height: 500px;
+            padding: 0%;
+        }
 }
